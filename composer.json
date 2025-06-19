@@ -1,0 +1,24 @@
+{
+	"name": "bigfork/silverstripe-vitesse-spritemap",
+	"type": "silverstripe-vendormodule",
+	"description": "Adds spritemap support to the Silverstripe Vitesse package",
+	"keywords": ["silverstripe", "vite", "spritemap", "laravel", "laravel-vite"],
+	"authors": [
+		{
+			"name": "Loz Calver",
+			"email": "loz@bigfork.co.uk"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"require": {
+		"bigfork/silverstripe-vitesse": "*",
+		"silverstripe/framework": "^5 || ^6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bigfork\\VitesseSpritemap\\": "src/"
+		}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}
